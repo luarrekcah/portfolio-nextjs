@@ -29,7 +29,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #a72b2b;
   text-decoration: none;
 }
 
@@ -54,6 +54,14 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.badge {
+  background: #a72b2b;
+  border-radius: 40px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
 }
 
 .code {
@@ -88,13 +96,14 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #fff;
+  border-color: #a72b2b;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .card p {
