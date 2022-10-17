@@ -1,7 +1,8 @@
+import React from 'react';
 import { ThemeProvider } from 'styled-components'
 import '../styles/globals.css'
-import { lightTheme, darkTheme } from './theme';
-import { GlobalStyles } from './global';
+import { lightTheme, darkTheme } from '../theme/theme';
+import { GlobalStyles } from '../theme/global';
 
 import Navbar from './components/Navbar';
 
